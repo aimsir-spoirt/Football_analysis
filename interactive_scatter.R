@@ -9,6 +9,8 @@ library(plotly)
 
 
 
+# Read in csvs, would be better if I just learned worldfootballR
+
 gl_20 <- read.csv("") %>%
   select(Player,Comp,Age,Born,Pos,Min,npGls_per90,npxG_per90) %>%
   mutate(season = "2020-2021") %>%
